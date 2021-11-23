@@ -1,25 +1,15 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "portfolio",
-  "main": "server.js",
+  "name": "testthreejs",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gohyiqian/portfolio.git"
+  "devDependencies": {
+    "vite": "^2.6.4"
   },
-  "author": "yiqian",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gohyiqian/portfolio/issues"
-  },
-  "homepage": "https://github.com/gohyiqian/portfolio#readme",
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "three": "^0.134.0"
   }
 }

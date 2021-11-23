@@ -1,2 +1,0 @@
-# portfolio
-CV2022
